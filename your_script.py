@@ -45,7 +45,7 @@ def sentiment_analysis_model(name):
     # driver.implicitly_wait(10)
     try:
         mob_no = driver.find_element(By.XPATH, "//input[@type='text']")
-        my_mob = "8875316737"  # Replace with your phone number if needed
+        my_mob = "enter your mobile number"  # Replace with your phone number if needed
         mob_no.send_keys(my_mob)
         mob_no.send_keys(Keys.ENTER)
     except:
