@@ -9,8 +9,8 @@ def sentiment_analysis_model(name):
     from time import sleep
     import getpass
 
-    my_user = "@krishn_amr14597"
-    my_pass = "tweet@Amr1t"
+    my_user = "enter your user id"
+    my_pass = "enter your password"
 
 
     # Set up Chrome options for headless mode
@@ -38,7 +38,7 @@ def sentiment_analysis_model(name):
     user_id.send_keys(Keys.ENTER)
     # driver.implicitly_wait(10)
 
-    # my_mob = "8875316737"
+    # my_mob = "enter your mobile number"
     # mob_no = driver.find_element(By.XPATH,"//input[@type='text']")
     # mob_no.send_keys(my_mob)
     # mob_no.send_keys(Keys.ENTER)
