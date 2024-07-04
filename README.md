@@ -8,6 +8,7 @@ This project is a web application that allows users to perform sentiment analysi
 ## Technologies Used
 Python,
 Flask,
+Selenium,
 Plotly,
 BeautifulSoup,
 Requests,
